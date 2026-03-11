@@ -1,62 +1,109 @@
-[
-  {
-    "id": "lift-001",
-    "name": "Titan 9K Lift",
-    "category": "Lift",
-    "width": 7,
-    "depth": 10,
-    "height": 8,
-    "image": "https://img.icons8.com/ios/100/car-lift.png",
-    "description": "Heavy-duty hydraulic lift for two vehicles.",
-    "vendor": "Titan Lifts",
-    "price": "$3,495"
-  },
-  {
-    "id": "loft-001",
-    "name": "Second Floor Loft",
-    "category": "Loft",
-    "width": 24,
-    "depth": 15,
-    "height": 10,
-    "image": "https://img.icons8.com/ios/100/attic.png",
-    "description": "Add a second-floor space with stairs.",
-    "vendor": "MSE Loft Co.",
-    "price": "$8,000"
-  },
-  {
-    "id": "couch-001",
-    "name": "Black Leather Couch",
-    "category": "Couch",
-    "width": 6,
-    "depth": 3,
-    "height": 3,
-    "image": "https://img.icons8.com/ios/100/sofa.png",
-    "description": "Luxury seating for the lounge corner.",
-    "vendor": "MSE Interiors",
-    "price": "$1,250"
-  },
-  {
-    "id": "sink-001",
-    "name": "Utility Sink",
-    "category": "Sink",
-    "width": 2,
-    "depth": 2,
-    "height": 3,
-    "image": "https://img.icons8.com/ios/100/sink.png",
-    "description": "Stainless steel utility sink.",
-    "vendor": "MSE Fixtures",
-    "price": "$450"
-  },
-  {
-    "id": "cabinet-001",
-    "name": "Wall Storage Cabinet",
-    "category": "Cabinet",
-    "width": 4,
-    "depth": 1.5,
-    "height": 6,
-    "image": "https://img.icons8.com/ios/100/toolbox.png",
-    "description": "Wall-mounted storage for tools.",
-    "vendor": "GarageTech Pro",
-    "price": "$995"
-  }
-]
+{
+  "unit_types": [
+    {
+      "id": "unit_24x48",
+      "name": "24x48 Standard Unit",
+      "width_ft": 24,
+      "depth_ft": 48,
+      "height_ft": 25,
+      "loft_allowed": true,
+      "max_loft_sqft": 360,
+      "default_door_width_ft": 12,
+      "notes": "standard unit size",
+      "base_price": 170000
+    },
+    {
+      "id": "unit_30x48",
+      "name": "30x48 Quarter Unit",
+      "width_ft": 30,
+      "depth_ft": 48,
+      "height_ft": 25,
+      "loft_allowed": true,
+      "max_loft_sqft": 540,
+      "default_door_width_ft": 12,
+      "notes": "good for multiple cars and a loft",
+      "base_price": 180000
+    },
+    {
+      "id": "unit_36x48",
+      "name": "36x48 Half Unit",
+      "width_ft": 36,
+      "depth_ft": 48,
+      "height_ft": 25,
+      "loft_allowed": true,
+      "max_loft_sqft": 720,
+      "default_door_width_ft": 12,
+      "notes": "more flexable layout",
+      "base_price": 192000
+    },
+    {
+      "id": "unit_42x48",
+      "name": "42x48 Three Quarter Unit",
+      "width_ft": 42,
+      "depth_ft": 48,
+      "height_ft": 25,
+      "loft_allowed": true,
+      "max_loft_sqft": 900,
+      "default_door_width_ft": 12,
+      "notes": "includes a second man door",
+      "base_price": 200000
+    },
+    {
+      "id": "unit_48x48",
+      "name": "48x48 Two Unit",
+      "width_ft": 48,
+      "depth_ft": 48,
+      "height_ft": 25,
+      "loft_allowed": true,
+      "max_loft_sqft": 1080,
+      "default_door_width_ft": 12,
+      "notes": "large flexible footprint",
+      "base_price": 220000
+    },
+    {
+      "id": "unit_54x48",
+      "name": "54x48 Two and Quarter Unit",
+      "width_ft": 54,
+      "depth_ft": 48,
+      "height_ft": 25,
+      "loft_allowed": true,
+      "max_loft_sqft": 1260,
+      "default_door_width_ft": 12,
+      "notes": "good for entertaining and storage",
+      "base_price": 240000
+    },
+    {
+      "id": "unit_60x48",
+      "name": "60x48 Two and Half Unit",
+      "width_ft": 60,
+      "depth_ft": 48,
+      "height_ft": 25,
+      "loft_allowed": true,
+      "max_loft_sqft": 1440,
+      "default_door_width_ft": 12,
+      "notes": "expanded multi-use footprint room for 2 lofts",
+      "base_price": 260000
+    },
+    {
+      "id": "unit_66x48",
+      "name": "66x48 Two and Three Quarter Unit",
+      "width_ft": 66,
+      "depth_ft": 48,
+      "height_ft": 25,
+      "loft_allowed": true,
+      "max_loft_sqft": 1620,
+      "default_door_width_ft": 12,
+      "notes": "premium large-format option",
+      "base_price": 280000
+    },
+    {
+      "id": "unit_72x48",
+      "name": "72x48 Three Unit",
+      "width_ft": 72,
+      "depth_ft": 48,
+      "height_ft": 25,
+      "loft_allowed": true,
+      "max_loft_sqft": 1800,
+      "default_door_width_ft": 12,
+      "notes": "maximum standard footprint",
+      "base_price": 300000
